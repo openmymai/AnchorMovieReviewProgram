@@ -26,8 +26,10 @@ While making CPIs directly using ```invoke``` or ```invoke_signed``` is still an
 
 ## Notes
 
-It fails to mention that you also need to add "anchor-spl/idl-build" to the idl-build list in the Cargo.toml
-from
+It fails to mention that you also need to add "anchor-spl/idl-build" to the idl-build list in the ```Cargo.toml```
+
+From
 ```idl-build = ["anchor-lang/idl-build"]```
-to
+
+To
 ```idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]```
