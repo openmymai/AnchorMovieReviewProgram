@@ -1,5 +1,3 @@
-## Anchor Movie Review Program
-
 ## PDAs with Anchor
 PDAs store data, at addresses specified by the onchain programmer, 
 using a list of seeds, a bump seed, and a program ID.
