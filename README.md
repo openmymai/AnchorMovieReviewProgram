@@ -24,3 +24,10 @@ While making CPIs directly using ```invoke``` or ```invoke_signed``` is still an
 - The ```error_code``` attribute macro is used to create custom Anchor Errors
 
 
+## Notes
+
+It fails to mention that you also need to add "anchor-spl/idl-build" to the idl-build list in the Cargo.toml
+from
+```idl-build = ["anchor-lang/idl-build"]```
+to
+```idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]```
